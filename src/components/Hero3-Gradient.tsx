@@ -11,7 +11,7 @@ export default function Hero3Gradient() {
       setCurrentWord((prev) => (prev + 1) % words.length);
     }, 3000);
     return () => clearInterval(interval);
-  }, []);
+  }, [words.length]);
 
   return (
     <section id="home" className="relative min-h-screen overflow-hidden">
