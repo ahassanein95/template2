@@ -47,7 +47,7 @@ export default function Hero4Grid() {
         <Grid container spacing={4} sx={{ minHeight: { lg: '600px' } }}>
           
           {/* Main Content Card */}
-          <Grid item xs={12} lg={5}>
+          <Grid size={{ xs: 12, lg: 5 }}>
             <Card 
               sx={{ 
                 height: '100%',
@@ -112,7 +112,7 @@ export default function Hero4Grid() {
           </Grid>
           
           {/* Main Image */}
-          <Grid item xs={12} lg={4}>
+          <Grid size={{ xs: 12, lg: 4 }}>
             <Box position="relative">
               <Box 
                 sx={{ 
@@ -154,7 +154,7 @@ export default function Hero4Grid() {
           </Grid>
           
           {/* Side Cards */}
-          <Grid item xs={12} lg={3}>
+          <Grid size={{ xs: 12, lg: 3 }}>
             <Box display="flex" flexDirection="column" gap={4}>
             
             {/* Hours Card */}
@@ -203,25 +203,25 @@ export default function Hero4Grid() {
         
         {/* Bottom Stats */}
         <Grid container spacing={4} sx={{ mt: 8, pt: 6, borderTop: 1, borderColor: 'grey.200' }}>
-          <Grid item xs={6} md={3}>
+          <Grid size={{ xs: 6, md: 3 }}>
             <Box textAlign="center">
               <Typography variant="h3" fontWeight="bold" sx={{ color: '#d97706' }}>25+</Typography>
               <Typography variant="body2" color="grey.600">Years of Excellence</Typography>
             </Box>
           </Grid>
-          <Grid item xs={6} md={3}>
+          <Grid size={{ xs: 6, md: 3 }}>
             <Box textAlign="center">
               <Typography variant="h3" fontWeight="bold" sx={{ color: '#d97706' }}>50+</Typography>
               <Typography variant="body2" color="grey.600">Signature Dishes</Typography>
             </Box>
           </Grid>
-          <Grid item xs={6} md={3}>
+          <Grid size={{ xs: 6, md: 3 }}>
             <Box textAlign="center">
               <Typography variant="h3" fontWeight="bold" sx={{ color: '#d97706' }}>10k+</Typography>
               <Typography variant="body2" color="grey.600">Happy Customers</Typography>
             </Box>
           </Grid>
-          <Grid item xs={6} md={3}>
+          <Grid size={{ xs: 6, md: 3 }}>
             <Box textAlign="center">
               <Typography variant="h3" fontWeight="bold" sx={{ color: '#d97706' }}>Michelin</Typography>
               <Typography variant="body2" color="grey.600">Recommended</Typography>
